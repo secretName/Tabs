@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A58B0971526593600AE6E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A58B0961526593600AE6E99 /* UIKit.framework */; };
+		0A58B0991526593600AE6E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A58B0981526593600AE6E99 /* Foundation.framework */; };
+		0A58B09B1526593600AE6E99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A58B09A1526593600AE6E99 /* CoreGraphics.framework */; };
+		0A58B0A11526593600AE6E99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B09F1526593600AE6E99 /* InfoPlist.strings */; };
+		0A58B0A31526593600AE6E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0A21526593600AE6E99 /* main.m */; };
+		0A58B0A71526593600AE6E99 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0A61526593600AE6E99 /* BIDAppDelegate.m */; };
+		0A58B0B015265A5800AE6E99 /* BIDAppetizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0AE15265A5800AE6E99 /* BIDAppetizerViewController.m */; };
+		0A58B0B115265A5800AE6E99 /* BIDAppetizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0AF15265A5800AE6E99 /* BIDAppetizerViewController.xib */; };
+		0A58B0B515265A8700AE6E99 /* BIDEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0B315265A8700AE6E99 /* BIDEntryViewController.m */; };
+		0A58B0B615265A8700AE6E99 /* BIDEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0B415265A8700AE6E99 /* BIDEntryViewController.xib */; };
+		0A58B0BA15265AA000AE6E99 /* BIDWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0B815265AA000AE6E99 /* BIDWineViewController.m */; };
+		0A58B0BB15265AA000AE6E99 /* BIDWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0B915265AA000AE6E99 /* BIDWineViewController.xib */; };
+		0A58B0BF15265AB000AE6E99 /* BIDDessertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0BD15265AB000AE6E99 /* BIDDessertViewController.m */; };
+		0A58B0C015265AB000AE6E99 /* BIDDessertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0BE15265AB000AE6E99 /* BIDDessertViewController.xib */; };
+		0A58B0C415265ADA00AE6E99 /* BIDDrinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0C215265ADA00AE6E99 /* BIDDrinksViewController.m */; };
+		0A58B0C515265ADA00AE6E99 /* BIDDrinksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0C315265ADA00AE6E99 /* BIDDrinksViewController.xib */; };
+		0A58B0CC15265EE900AE6E99 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0C715265EE900AE6E99 /* clockicon.png */; };
+		0A58B0CD15265EE900AE6E99 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0C815265EE900AE6E99 /* dependenticon.png */; };
+		0A58B0CE15265EE900AE6E99 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0C915265EE900AE6E99 /* doubleicon.png */; };
+		0A58B0CF15265EE900AE6E99 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0CA15265EE900AE6E99 /* singleicon.png */; };
+		0A58B0D015265EE900AE6E99 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0CB15265EE900AE6E99 /* toolicon.png */; };
+		0A58B0D2152662DE00AE6E99 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0D1152662DE00AE6E99 /* TabBarController.xib */; };
+		0A58B0D915267CB300AE6E99 /* MTPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B0D815267CB300AE6E99 /* MTPopupWindow.m */; };
+		0A58B0DB15267CC500AE6E99 /* popupCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0DA15267CC500AE6E99 /* popupCloseBtn.png */; };
+		0A58B0DD15267CD400AE6E99 /* popupCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0DC15267CD400AE6E99 /* popupCloseBtn@2x.png */; };
+		0A58B0DF15267CE200AE6E99 /* popupWindowBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0DE15267CE200AE6E99 /* popupWindowBack.png */; };
+		0A58B0E115267CF400AE6E99 /* popupWindowBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0E015267CF400AE6E99 /* popupWindowBack@2x.png */; };
+		0A58B0E315267D9C00AE6E99 /* testContent.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0E215267D9C00AE6E99 /* testContent.html */; };
+		0A58B0E515267E2400AE6E99 /* BurgerGuac-450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B0E415267E2400AE6E99 /* BurgerGuac-450.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A58B0921526593600AE6E99 /* Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A58B0961526593600AE6E99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A58B0981526593600AE6E99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A58B09A1526593600AE6E99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A58B09E1526593600AE6E99 /* Tabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabs-Info.plist"; sourceTree = "<group>"; };
+		0A58B0A01526593600AE6E99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A58B0A21526593600AE6E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A58B0A41526593600AE6E99 /* Tabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabs-Prefix.pch"; sourceTree = "<group>"; };
+		0A58B0A51526593600AE6E99 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		0A58B0A61526593600AE6E99 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		0A58B0AD15265A5800AE6E99 /* BIDAppetizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDAppetizerViewController.h; sourceTree = "<group>"; };
+		0A58B0AE15265A5800AE6E99 /* BIDAppetizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDAppetizerViewController.m; sourceTree = "<group>"; };
+		0A58B0AF15265A5800AE6E99 /* BIDAppetizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDAppetizerViewController.xib; sourceTree = "<group>"; };
+		0A58B0B215265A8700AE6E99 /* BIDEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDEntryViewController.h; sourceTree = "<group>"; };
+		0A58B0B315265A8700AE6E99 /* BIDEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDEntryViewController.m; sourceTree = "<group>"; };
+		0A58B0B415265A8700AE6E99 /* BIDEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDEntryViewController.xib; sourceTree = "<group>"; };
+		0A58B0B715265AA000AE6E99 /* BIDWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDWineViewController.h; sourceTree = "<group>"; };
+		0A58B0B815265AA000AE6E99 /* BIDWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDWineViewController.m; sourceTree = "<group>"; };
+		0A58B0B915265AA000AE6E99 /* BIDWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDWineViewController.xib; sourceTree = "<group>"; };
+		0A58B0BC15265AB000AE6E99 /* BIDDessertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDessertViewController.h; sourceTree = "<group>"; };
+		0A58B0BD15265AB000AE6E99 /* BIDDessertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDessertViewController.m; sourceTree = "<group>"; };
+		0A58B0BE15265AB000AE6E99 /* BIDDessertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDessertViewController.xib; sourceTree = "<group>"; };
+		0A58B0C115265ADA00AE6E99 /* BIDDrinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDrinksViewController.h; sourceTree = "<group>"; };
+		0A58B0C215265ADA00AE6E99 /* BIDDrinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDrinksViewController.m; sourceTree = "<group>"; };
+		0A58B0C315265ADA00AE6E99 /* BIDDrinksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDrinksViewController.xib; sourceTree = "<group>"; };
+		0A58B0C715265EE900AE6E99 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		0A58B0C815265EE900AE6E99 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		0A58B0C915265EE900AE6E99 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		0A58B0CA15265EE900AE6E99 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		0A58B0CB15265EE900AE6E99 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		0A58B0D1152662DE00AE6E99 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		0A58B0D715267CA800AE6E99 /* MTPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPopupWindow.h; sourceTree = "<group>"; };
+		0A58B0D815267CB300AE6E99 /* MTPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPopupWindow.m; sourceTree = "<group>"; };
+		0A58B0DA15267CC500AE6E99 /* popupCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupCloseBtn.png; sourceTree = "<group>"; };
+		0A58B0DC15267CD400AE6E99 /* popupCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupCloseBtn@2x.png"; sourceTree = "<group>"; };
+		0A58B0DE15267CE200AE6E99 /* popupWindowBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupWindowBack.png; sourceTree = "<group>"; };
+		0A58B0E015267CF400AE6E99 /* popupWindowBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupWindowBack@2x.png"; sourceTree = "<group>"; };
+		0A58B0E215267D9C00AE6E99 /* testContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testContent.html; sourceTree = "<group>"; };
+		0A58B0E415267E2400AE6E99 /* BurgerGuac-450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BurgerGuac-450.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A58B08F1526593600AE6E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A58B0971526593600AE6E99 /* UIKit.framework in Frameworks */,
+				0A58B0991526593600AE6E99 /* Foundation.framework in Frameworks */,
+				0A58B09B1526593600AE6E99 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A58B0871526593600AE6E99 = {
+			isa = PBXGroup;
+			children = (
+				0A58B09C1526593600AE6E99 /* Tabs */,
+				0A58B0951526593600AE6E99 /* Frameworks */,
+				0A58B0931526593600AE6E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A58B0931526593600AE6E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B0921526593600AE6E99 /* Tabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A58B0951526593600AE6E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B0961526593600AE6E99 /* UIKit.framework */,
+				0A58B0981526593600AE6E99 /* Foundation.framework */,
+				0A58B09A1526593600AE6E99 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A58B09C1526593600AE6E99 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B0E7152685AF00AE6E99 /* images */,
+				0A58B0E215267D9C00AE6E99 /* testContent.html */,
+				0A58B0E015267CF400AE6E99 /* popupWindowBack@2x.png */,
+				0A58B0DE15267CE200AE6E99 /* popupWindowBack.png */,
+				0A58B0DC15267CD400AE6E99 /* popupCloseBtn@2x.png */,
+				0A58B0DA15267CC500AE6E99 /* popupCloseBtn.png */,
+				0A58B0D815267CB300AE6E99 /* MTPopupWindow.m */,
+				0A58B0D715267CA800AE6E99 /* MTPopupWindow.h */,
+				0A58B0C615265EE900AE6E99 /* Tab Bar Icons */,
+				0A58B0A51526593600AE6E99 /* BIDAppDelegate.h */,
+				0A58B0A61526593600AE6E99 /* BIDAppDelegate.m */,
+				0A58B09D1526593600AE6E99 /* Supporting Files */,
+				0A58B0AD15265A5800AE6E99 /* BIDAppetizerViewController.h */,
+				0A58B0AE15265A5800AE6E99 /* BIDAppetizerViewController.m */,
+				0A58B0AF15265A5800AE6E99 /* BIDAppetizerViewController.xib */,
+				0A58B0B215265A8700AE6E99 /* BIDEntryViewController.h */,
+				0A58B0B315265A8700AE6E99 /* BIDEntryViewController.m */,
+				0A58B0B415265A8700AE6E99 /* BIDEntryViewController.xib */,
+				0A58B0B715265AA000AE6E99 /* BIDWineViewController.h */,
+				0A58B0B815265AA000AE6E99 /* BIDWineViewController.m */,
+				0A58B0B915265AA000AE6E99 /* BIDWineViewController.xib */,
+				0A58B0BC15265AB000AE6E99 /* BIDDessertViewController.h */,
+				0A58B0BD15265AB000AE6E99 /* BIDDessertViewController.m */,
+				0A58B0BE15265AB000AE6E99 /* BIDDessertViewController.xib */,
+				0A58B0C115265ADA00AE6E99 /* BIDDrinksViewController.h */,
+				0A58B0C215265ADA00AE6E99 /* BIDDrinksViewController.m */,
+				0A58B0C315265ADA00AE6E99 /* BIDDrinksViewController.xib */,
+				0A58B0D1152662DE00AE6E99 /* TabBarController.xib */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		0A58B09D1526593600AE6E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B09E1526593600AE6E99 /* Tabs-Info.plist */,
+				0A58B09F1526593600AE6E99 /* InfoPlist.strings */,
+				0A58B0A21526593600AE6E99 /* main.m */,
+				0A58B0A41526593600AE6E99 /* Tabs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A58B0C615265EE900AE6E99 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B0C715265EE900AE6E99 /* clockicon.png */,
+				0A58B0C815265EE900AE6E99 /* dependenticon.png */,
+				0A58B0C915265EE900AE6E99 /* doubleicon.png */,
+				0A58B0CA15265EE900AE6E99 /* singleicon.png */,
+				0A58B0CB15265EE900AE6E99 /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		0A58B0E7152685AF00AE6E99 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0A58B0E415267E2400AE6E99 /* BurgerGuac-450.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A58B0911526593600AE6E99 /* Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A58B0AA1526593600AE6E99 /* Build configuration list for PBXNativeTarget "Tabs" */;
+			buildPhases = (
+				0A58B08E1526593600AE6E99 /* Sources */,
+				0A58B08F1526593600AE6E99 /* Frameworks */,
+				0A58B0901526593600AE6E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabs;
+			productName = Tabs;
+			productReference = 0A58B0921526593600AE6E99 /* Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A58B0891526593600AE6E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "UW-Madison";
+			};
+			buildConfigurationList = 0A58B08C1526593600AE6E99 /* Build configuration list for PBXProject "Tabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A58B0871526593600AE6E99;
+			productRefGroup = 0A58B0931526593600AE6E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A58B0911526593600AE6E99 /* Tabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A58B0901526593600AE6E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A58B0A11526593600AE6E99 /* InfoPlist.strings in Resources */,
+				0A58B0B115265A5800AE6E99 /* BIDAppetizerViewController.xib in Resources */,
+				0A58B0B615265A8700AE6E99 /* BIDEntryViewController.xib in Resources */,
+				0A58B0BB15265AA000AE6E99 /* BIDWineViewController.xib in Resources */,
+				0A58B0C015265AB000AE6E99 /* BIDDessertViewController.xib in Resources */,
+				0A58B0C515265ADA00AE6E99 /* BIDDrinksViewController.xib in Resources */,
+				0A58B0CC15265EE900AE6E99 /* clockicon.png in Resources */,
+				0A58B0CD15265EE900AE6E99 /* dependenticon.png in Resources */,
+				0A58B0CE15265EE900AE6E99 /* doubleicon.png in Resources */,
+				0A58B0CF15265EE900AE6E99 /* singleicon.png in Resources */,
+				0A58B0D015265EE900AE6E99 /* toolicon.png in Resources */,
+				0A58B0D2152662DE00AE6E99 /* TabBarController.xib in Resources */,
+				0A58B0DB15267CC500AE6E99 /* popupCloseBtn.png in Resources */,
+				0A58B0DD15267CD400AE6E99 /* popupCloseBtn@2x.png in Resources */,
+				0A58B0DF15267CE200AE6E99 /* popupWindowBack.png in Resources */,
+				0A58B0E115267CF400AE6E99 /* popupWindowBack@2x.png in Resources */,
+				0A58B0E315267D9C00AE6E99 /* testContent.html in Resources */,
+				0A58B0E515267E2400AE6E99 /* BurgerGuac-450.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A58B08E1526593600AE6E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A58B0A31526593600AE6E99 /* main.m in Sources */,
+				0A58B0A71526593600AE6E99 /* BIDAppDelegate.m in Sources */,
+				0A58B0B015265A5800AE6E99 /* BIDAppetizerViewController.m in Sources */,
+				0A58B0B515265A8700AE6E99 /* BIDEntryViewController.m in Sources */,
+				0A58B0BA15265AA000AE6E99 /* BIDWineViewController.m in Sources */,
+				0A58B0BF15265AB000AE6E99 /* BIDDessertViewController.m in Sources */,
+				0A58B0C415265ADA00AE6E99 /* BIDDrinksViewController.m in Sources */,
+				0A58B0D915267CB300AE6E99 /* MTPopupWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A58B09F1526593600AE6E99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A58B0A01526593600AE6E99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A58B0A81526593600AE6E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A58B0A91526593600AE6E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A58B0AB1526593600AE6E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabs/Tabs-Prefix.pch";
+				INFOPLIST_FILE = "Tabs/Tabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A58B0AC1526593600AE6E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabs/Tabs-Prefix.pch";
+				INFOPLIST_FILE = "Tabs/Tabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A58B08C1526593600AE6E99 /* Build configuration list for PBXProject "Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A58B0A81526593600AE6E99 /* Debug */,
+				0A58B0A91526593600AE6E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A58B0AA1526593600AE6E99 /* Build configuration list for PBXNativeTarget "Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A58B0AB1526593600AE6E99 /* Debug */,
+				0A58B0AC1526593600AE6E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A58B0891526593600AE6E99 /* Project object */;
+}
